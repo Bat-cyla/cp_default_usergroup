@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR,MVE:VENDOR">
+    <id>cp_default_usergroup</id>
+    <priority>2100</priority>
+    <position>130</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <has_icon>Y</has_icon>
+    <version>4.3.1.1</version>
+    <status>disabled</status>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="licensekey">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="notify_user">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="admin_usergroups">
+                        <type>multiple checkboxes</type>
+                    </item>
+                    <item id="customer_usergroups">
+                        <type>multiple checkboxes</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">ALTER TABLE `?:usergroups` ADD COLUMN `is_default` VARCHAR(1) DEFAULT 'N';</item>
+        <item for="uninstall">ALTER TABLE `?:usergroups` DROP COLUMN `is_default`;</item>
+        <item for="demo" type="file">database/demo.sql</item>
+    </queries>
+</addon>
