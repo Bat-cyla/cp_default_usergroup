@@ -11,8 +11,8 @@ msgid "Cart-Power: Assign user group on registration"
 msgstr "Cart-Power:Присвоение групп пользователей при регистрации"
 
 msgctxt "Addons::description::cp_default_usergroup"
-msgid "Addon adds ability to grant usergroup for recently registered users automatically."
-msgstr "Модуль предоставляет возможность автоматически назначать группы пользователей для недавно зарегистрированных покупателей."
+msgid "Addon adds ability to grant usergroup for recently registered users automatically. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Модуль предоставляет возможность автоматически назначать группы пользователей для недавно зарегистрированных покупателей.Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
 
 msgctxt "SettingsSections::cp_default_usergroup::general"
 msgid "General"
