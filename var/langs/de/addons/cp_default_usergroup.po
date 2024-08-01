@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_default_usergroup"
+msgid "Cart-Power: Default usergroup"
+msgstr "Cart-Power: Default usergroup"
+
+msgctxt "Addons::description::cp_default_usergroup"
+msgid "Default usergroup for new users. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Default usergroup for new users. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::default_usergroup"
+msgid "Default usergroup"
+msgstr "Default usergroup"

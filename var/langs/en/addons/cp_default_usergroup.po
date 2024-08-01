@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_default_usergroup"
+msgid "Cart-Power: Assign user group on registration"
+msgstr "Cart-Power: Assign user group on registration"
+
+msgctxt "Addons::description::cp_default_usergroup"
+msgid "Addon adds ability to grant usergroup for recently registered users automatically."
+msgstr "Addon adds ability to grant usergroup for recently registered users automatically."
+
+msgctxt "SettingsSections::cp_default_usergroup::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_default_usergroup::licensekey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsTooltips::cp_default_usergroup::licensekey"
+msgid "Find on the detailed page of your order"
+msgstr "Find on the detailed page of your order"
+
+msgctxt "SettingsOptions::cp_default_usergroup::notify_user"
+msgid "Notify user"
+msgstr "Notify user"
+
+msgctxt "SettingsOptions::cp_default_usergroup::admin_usergroups"
+msgid "Admin usergroups"
+msgstr "Admin usergroups"
+
+msgctxt "SettingsOptions::cp_default_usergroup::customer_usergroups"
+msgid "Customer usergroups"
+msgstr "Customer usergroups"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+msgstr "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+
+msgctxt "Languages::default_usergroup"
+msgid "Default usergroup"
+msgstr "Default usergroup"
