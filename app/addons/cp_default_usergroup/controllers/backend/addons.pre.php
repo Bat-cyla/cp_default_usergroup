@@ -11,7 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     );
 
     if ($mode == 'update') {
-        fn_print_r($_REQUEST);
         if (isset($_REQUEST['addon_data']) && $_REQUEST['addon'] == 'cp_default_usergroup') {
             foreach($_REQUEST['addon_data']['options'] as $object_id => $val) {
 
